@@ -8342,7 +8342,7 @@ function _sfc_render$1(_ctx, _cache, $props, $setup, $data, $options) {
       createBaseVNode("span", {
         onClick: _cache[0] || (_cache[0] = ($event) => _ctx.$emit("closeRules")),
         class: "h-5 w-5 border-header-outline uppercase text-header-outline hover:cursor-pointer md:absolute md:top-12 md:right-9",
-        style: { "background-repeat": "no-repeat", "background-size": "contain", "background-position": "center", "background-image": "url('./src/assets/images/icon-close.svg')" }
+        style: { "background-repeat": "no-repeat", "background-size": "contain", "background-position": "center", "background-image": "url('/images/icon-close.svg')" }
       })
     ])
   ]);

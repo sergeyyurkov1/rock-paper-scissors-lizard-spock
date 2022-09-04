@@ -39,7 +39,7 @@ export default {
           background-repeat: no-repeat;
           background-size: contain;
           background-position: center;
-          background-image: url('./src/assets/images/icon-close.svg');
+          background-image: url('/images/icon-close.svg');
         "
       >
       </span>
