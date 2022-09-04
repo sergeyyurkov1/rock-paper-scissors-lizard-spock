@@ -57,7 +57,7 @@ export default {
       >
         <img
           :class="`${viewClassMap[view].size.icon} pointer-events-none`"
-          :src="`./src/assets/images/icon-${id}.svg`"
+          :src="`/images/icon-${id}.svg`"
         />
       </div>
     </div>

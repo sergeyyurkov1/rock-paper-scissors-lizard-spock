@@ -72,7 +72,7 @@ export default {
       class="flex max-h-24 w-4/5 justify-between rounded-xl border-2 border-header-outline p-2 text-4xl text-header-outline md:min-h-[150px] md:w-3/5 md:p-4"
     >
       <div class="m-2">
-        <img class="h-full" src="@/assets/images/logo-bonus.svg" alt="" />
+        <img class="h-full" src="/images/logo-bonus.svg" alt="" />
       </div>
 
       <div
