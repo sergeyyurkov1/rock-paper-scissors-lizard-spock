@@ -26,7 +26,7 @@ export default {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        background-image: url('./src/assets/images/image-rules-bonus.svg');
+        background-image: url('/images/image-rules-bonus.svg');
       "
       id="rules"
     ></div>

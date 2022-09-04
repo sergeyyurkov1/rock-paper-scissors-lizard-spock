@@ -29,7 +29,7 @@ export default {
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
-      background-image: url('./src/assets/images/bg-pentagon.svg');
+      background-image: url('/images/bg-pentagon.svg');
     "
   >
     <div

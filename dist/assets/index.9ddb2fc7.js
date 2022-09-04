@@ -7952,7 +7952,7 @@ function _sfc_render$5(_ctx, _cache, $props, $setup, $data, $options) {
       }, [
         createBaseVNode("img", {
           class: normalizeClass(`${$data.viewClassMap[$props.view].size.icon} pointer-events-none`),
-          src: `./src/assets/images/icon-${$props.id}.svg`
+          src: `/images/icon-${$props.id}.svg`
         }, null, 10, _hoisted_2$5)
       ], 2)
     ], 2)
@@ -8240,7 +8240,7 @@ const _sfc_main$2 = {
 };
 const _hoisted_1$2 = {
   class: "relative h-[300px] w-[200px] md:h-[300px] md:w-[300px]",
-  style: { "background-repeat": "no-repeat", "background-size": "contain", "background-position": "center", "background-image": "url('./src/assets/images/bg-pentagon.svg')" }
+  style: { "background-repeat": "no-repeat", "background-size": "contain", "background-position": "center", "background-image": "url('/images/bg-pentagon.svg')" }
 };
 const _hoisted_2$2 = {
   id: "scissors-container",
@@ -8327,7 +8327,7 @@ const _hoisted_2$1 = /* @__PURE__ */ createBaseVNode("div", {
 ], -1);
 const _hoisted_3$1 = /* @__PURE__ */ createBaseVNode("div", {
   class: "flex aspect-square w-[300px]",
-  style: { "background-repeat": "no-repeat", "background-size": "contain", "background-position": "center", "background-image": "url('./src/assets/images/image-rules-bonus.svg')" },
+  style: { "background-repeat": "no-repeat", "background-size": "contain", "background-position": "center", "background-image": "url('/images/image-rules-bonus.svg')" },
   id: "rules"
 }, null, -1);
 const _hoisted_4$1 = {
@@ -8348,7 +8348,7 @@ function _sfc_render$1(_ctx, _cache, $props, $setup, $data, $options) {
   ]);
 }
 const Rules = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["render", _sfc_render$1]]);
-const _imports_0 = "/assets/logo-bonus.97065621.svg";
+const _imports_0 = "/images/logo-bonus.svg";
 const App_vue_vue_type_style_index_0_lang = "";
 const _sfc_main = {
   setup() {
