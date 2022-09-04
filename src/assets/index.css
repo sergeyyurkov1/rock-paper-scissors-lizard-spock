@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .shadow-inset {
+    -webkit-box-shadow: inset 0px 12px 0 -4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0px 12px 0 -4px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 12px 0 -4px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@layer components {
+  .shadow-inset-sm {
+    -webkit-box-shadow: inset 0px 8px 0 -4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0px 8px 0 -4px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 8px 0 -4px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@layer components {
+  .shadow-inset-b {
+    -webkit-box-shadow: inset 0px -12px 0 -4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0px -12px 0 -4px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px -12px 0 -4px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@layer components {
+  .shadow-inset-b-sm {
+    -webkit-box-shadow: inset 0px -8px 0 -4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0px -8px 0 -4px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px -8px 0 -4px rgba(0, 0, 0, 0.2);
+  }
+}
+@layer components {
+  .animate__animated.animate__pulse {
+    --animate-duration: 1s;
+  }
+  .animate__fadeIn {
+    --animate-duration: 0.5s;
+  }
+  .animate__fadeOut {
+    --animate-duration: 0.5s;
+  }
+}
