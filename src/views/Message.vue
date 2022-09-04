@@ -9,7 +9,6 @@ export default {
   },
   methods: {
     playAgain() {
-      // this.store.$reset();
       this.store.$patch({
         selfPick: "",
         housePick: "",
