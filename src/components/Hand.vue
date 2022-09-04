@@ -43,7 +43,10 @@ export default {
 </script>
 
 <template>
-  <div :id="id" :class="`${animation} z-10 rounded-full shadow-xl`">
+  <div
+    :id="id"
+    :class="`${animation} z-10 cursor-pointer rounded-full shadow-xl`"
+  >
     <div
       id="parent"
       :class="`pointer-events-none ${idClassMap.colors[id]} ${viewClassMap[view].size.parent} ${viewClassMap[view].shadow.parent} flex items-center justify-center rounded-full`"
